@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magenteiro_Cloudflare>
+            <version>1.0.0</version>
+        </Magenteiro_Cloudflare>
+    </modules>
+    <global>
+        <events>
+            <controller_front_init_before>
+                <observers>
+                    <magenteiro_cloudflare>
+                        <type>singleton</type>
+                        <class>Magenteiro_Cloudflare_Model_Observer</class>
+                        <method>rewriteRemoteAddr</method>
+                    </magenteiro_cloudflare>
+                </observers>
+            </controller_front_init_before>
+        </events>
+        <models>
+            <magenteiro_cloudflare>
+                <class>Magenteiro_Cloudflare_Model</class>
+            </magenteiro_cloudflare>
+        </models>
+    </global>
+    <default>
+        <web>
+            <magenteiro_cloudflare>
+                <enabled>1</enabled>
+            </magenteiro_cloudflare>
+        </web>
+    </default>
+</config>

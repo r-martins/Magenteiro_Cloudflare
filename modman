@@ -1,0 +1,4 @@
+app/code/community/Magenteiro/Cloudflare/etc/system.xml app/code/community/Magenteiro/Cloudflare/etc/system.xml
+app/code/community/Magenteiro/Cloudflare/etc/config.xml app/code/community/Magenteiro/Cloudflare/etc/config.xml
+app/code/community/Magenteiro/Cloudflare/README.md app/code/community/Magenteiro/Cloudflare/README.md
+app/code/community/Magenteiro/Cloudflare/Model/Observer.php app/code/community/Magenteiro/Cloudflare/Model/Observer.php
